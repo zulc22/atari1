@@ -28,8 +28,15 @@
     left: 7.5px;
 }
 
+@keyframes splashfloat {
+    0%,50%,100% {top: 64px;}
+    25% {top: 68px;}
+    75% {top: 60px;}
+}
+
 .splash {
     position: absolute;
     top: 64px; left: 182px; right: 16px;
     height: 64px;
+    animation: splashfloat 5s linear infinite;
 }
