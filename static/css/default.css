@@ -7,3 +7,29 @@
 .splash {
     animation: blinker 1s linear infinite;
 }
+
+.logo {
+    position: absolute;
+    top: 16px; left: 16px;
+    width: 150px; height: 150px;
+    background: url("/static/logo.png");
+}
+
+.menu {
+    position: absolute;
+    top: 16px; left: 182px; right: 16px;
+    height: 32px;
+    border: black double 3px;
+}
+
+.menu span {
+    position: relative;
+    top: 7.5px;
+    left: 7.5px;
+}
+
+.splash {
+    position: absolute;
+    top: 64px; left: 182px; right: 16px;
+    height: 64px;
+}
