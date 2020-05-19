@@ -1,0 +1,9 @@
+
+@keyframes blinker {
+    0%,100% {color: black;}
+    50%     {color: white;}
+}
+
+.splash {
+    animation: blinker 1s linear infinite;
+}
