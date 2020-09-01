@@ -11,7 +11,9 @@
     <div class="menu">
         <span>
             <a href="/">⌂ index</a> |
+{% if not production %}
             <a href="/api/restart">↯ restart server</a> |
+{% endif %}
 {% if username %}
             ❤ hello {{ username }} |
             <a href="/api/logout">※ logout</a>

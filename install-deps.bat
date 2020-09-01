@@ -1,0 +1,1 @@
+@py -3 -m pip install -r deps.txt
